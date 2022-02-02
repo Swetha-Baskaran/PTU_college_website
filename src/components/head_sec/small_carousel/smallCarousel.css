@@ -24,16 +24,20 @@
 
 .card-cont button{
     cursor: pointer;
-    background-color: rgb(148, 148, 148);
+    background-color: rgb(148 148 148 / 61%);
     box-shadow: none;
-    color: #fff;
+    color: white;
+    font-weight: bolder;
+    padding: 7px;
+    border-radius: 50%;
+    font-size: 30px;
 }
 
 .small-cont{
-    border-radius: 20px;
+    border-radius: 10px;
     width: 450px;
-    height: 200px;
-    background-color: #bbb8c1eb;
+    height: 213px;
+    background-color: #c1bdb8d9;
     padding: 15px 10px 0px 20px;
     margin: 10px;
     box-shadow: 0 0 4px #0000003d;
@@ -47,7 +51,7 @@
 }
 
 .parts p{
-    margin: 18px 14px 0px 14px;
+    margin: -3px 14px 4px 14px;
     font-size: 12px;
 }
 

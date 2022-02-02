@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 import './smallCarousel.css';
 
@@ -21,6 +21,7 @@ export default function SmallCarousel()
     let moveRight = () => {
         (move === 0) ? setMove(-900) : setMove(e => e - (-450))
     }
+
 
     return (
         <div className="card-cont flex align-center">
