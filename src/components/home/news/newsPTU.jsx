@@ -27,6 +27,30 @@ let eventObj = [
         messege : "College will be remained closed upto feb 4 and classes will go online",
         date : "28",
         month : "Dec"
+    },
+    {
+        topic: "New year",
+        messege : "Happy new year 2022",
+        date : "1",
+        month : "Jan"
+    },
+    {
+        topic: "Commencement of online classes",
+        messege : "College will be remained closed upto feb 4 and classes will go online",
+        date : "28",
+        month : "Dec"
+    },
+    {
+        topic: "New year",
+        messege : "Happy new year 2022",
+        date : "1",
+        month : "Jan"
+    },
+    {
+        topic: "Commencement of online classes",
+        messege : "College will be remained closed upto feb 4 and classes will go online",
+        date : "28",
+        month : "Dec"
     }
 ]
 
@@ -95,8 +119,7 @@ export default function NewsPTU()
 
 const Updated = ({ topic, byWhome, messege }) => {
     return (
-        <div className="update">
-             
+        <div className="update">            
              <div className="content">
                  <h2>{topic}</h2>
                  <div className="newss">

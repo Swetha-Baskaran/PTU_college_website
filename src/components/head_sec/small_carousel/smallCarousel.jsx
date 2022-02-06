@@ -26,7 +26,7 @@ export default function SmallCarousel()
     return (
         <div className="card-cont flex align-center">
            <div className="btn"> 
-              <button onClick={()=>{moveLeft()}}><BsArrowLeftCircle /></button>
+              <button onClick={()=>{moveRight()}}><BsArrowLeftCircle /></button>
            </div>
             <div className="slide-hold">
             <div className="slide flex gap-4" style={{"transform" : `translate(${move}px)`}}>
@@ -36,7 +36,7 @@ export default function SmallCarousel()
             </div>
             </div>
             <div className="btn"> 
-              <button onClick={()=>{moveRight()}}><BsArrowRightCircle /></button>
+              <button onClick={()=>{moveLeft()}}><BsArrowRightCircle /></button>
            </div>
         </div>
     )

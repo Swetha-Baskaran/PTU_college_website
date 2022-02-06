@@ -2,6 +2,14 @@
     margin: 5px 0px;
 }
 
+.events
+{
+    padding-right: 10px;
+    margin-right: 1.25rem;
+    height: 403px;
+    overflow-y: scroll;
+}
+
 .description{
     text-align: left;
     padding-left: 10px;

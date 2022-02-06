@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 import { HiOutlineAcademicCap, HiAcademicCap } from '../../../../node_modules/react-icons/hi'
 import { MdCastForEducation } from '../../../../node_modules/react-icons/md'
@@ -7,6 +7,22 @@ import './style.css'
 
 export default function StudentCount()
 {
+    let [count, Setcount] = useState(0)
+
+    useEffect(()=>{
+            for(let i=0; i<=200; i++){
+                if(i===200){
+                    Setcount(i)
+                }
+                else{
+                    setTimeout(() => {
+                        Setcount(i)
+                     }, 2000);
+                }
+            }
+    }, 200)
+
+
     return (
         <div class="count-container">
 
@@ -20,7 +36,7 @@ export default function StudentCount()
                         <>
                         <div class="items" id="">
                             <div class="para">
-                              <span className="flex justify-center"><i><HiAcademicCap/></i>&nbsp;2105+</span>
+                              <span className="flex justify-center"><i><HiAcademicCap/></i>&nbsp;{count}+</span>
                               <div className="para-para"><p>{e}</p></div>
                             </div>
                         </div>
