@@ -95,7 +95,6 @@ export default function Hod(){
 </div>
 
 </div>
-
         </div>
         </>
     )
