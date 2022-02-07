@@ -43,7 +43,7 @@ export default function SmallCarousel()
 }
 
 
-const CardParts = ({ img, name, desig }) => {
+export const CardParts = ({ img, name, desig }) => {
     return (
         <div className="small-cont flex">
           <div className="parts">

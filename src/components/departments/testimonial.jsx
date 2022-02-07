@@ -2,7 +2,7 @@ import React from 'react';
 
 import './cse.css';
 
-import imgs from "../../images/chancellor.jpg"
+import imgs from "../../images/cse.jpg"
 
 
 export default function Testimonial()
