@@ -146,3 +146,76 @@
 .mark-hold{
     padding: 20px 40px;
 }
+
+.header{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    justify-content:space-between;
+    /* background-color: rgba(255, 255, 255, 0.75); */
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 1rem 2rem;
+}
+
+.header .searchbar{
+    display: flex;
+    padding: 1rem .5rem;
+    
+}
+
+.header .searchbar input{
+    border-radius: 5px;
+    background:rgba(87, 87, 87, 0.75);
+    outline:none;
+    height: 100%;
+    width: 100%;
+    color: #fff;
+
+}
+
+.header .searchbar input::placeholder{
+    color: #fff;
+}
+
+.search_icon{
+    position: absolute;
+    right: 10px;
+    color: #fff;
+}
+
+.title h3{
+    padding: .5rem 2rem;
+    color: #FFFFFF;
+/* background: rgba(0, 0, 0, 0.55); */
+text-shadow: 0 0 5px #FFF, 0 0 10px #FFF;
+text-transform: uppercase;
+}
+
+.navbar_for_dept{
+    display: flex;
+    padding: 1rem;
+    justify-content:center;
+    background: rgb(211, 38, 38);
+    /* background: linear-gradient(90deg, rgba(255,184,184,1) 0%, rgba(255,255,255,1) 51%, rgba(255,184,184,1) 9%); */
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.navbar_for_dept p{
+    margin: 0;
+    padding: .9rem 1.5rem;
+    display: flex;
+    align-items: center;
+
+}
+
+.gallery_dept{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
